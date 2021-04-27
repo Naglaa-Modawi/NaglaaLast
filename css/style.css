@@ -1,0 +1,577 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+   box-sizing: border-box;
+
+}
+.carousel-inner{
+    height: 500px;
+}
+h1,h3{
+    letter-spacing: 2px;
+    color: #2B0463 ;
+
+}
+p ,a{
+    font-size: 16px;
+    color:#2B0463 ;
+}
+i{
+   color: #F47D25;; 
+}
+hr{
+    width: 60px;
+    background-color:  #F47D25;
+    height: 2px;
+}
+.navbar-header .navbar-brand img{
+    max-width: 200px;
+    max-height: 30px;
+    margin-top: -8px;
+}
+/*Phone Number In NavBar*/
+.navbar-right p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 26px;
+    font-weight: bold;
+    color:#2B0463;
+}
+
+.navbar-right .glyphicon{
+    top: 0;
+}
+/*Go To Top*/
+
+.sroal {
+    color: #F47D25;
+    position: fixed;
+    display: block;
+    z-index: 9999;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+    display: none;
+}
+.navbar-default {
+    background-color: white;
+    border-color: #e7e7e7;
+  
+}
+.navbar-default .navbar-nav > li > a {
+    color: #2B0463;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+ color:#F47D25;
+ 
+}
+
+.Header{
+  
+    background : url("../images/3.jpg"); 
+    /*Beacuse if i do zoome (-)the image dont hidden*/
+    -webkit-background-size:cover ;
+     -moz-background-size:cover;
+     -o-background-size:cover;
+     background-size:cover;
+     min-height: 500px;
+     margin-top: 30px;
+    color: white;
+  }
+  .Header h1{
+    text-align: center;
+    padding-top:8em;
+    margin-top: -120px;
+    color:#F47D25;
+    font-weight: bold;
+  }
+  .Header h2{
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+  }
+
+  .Header .Header-Cover{
+    background:rgba(152, 84, 248, 0.4);
+    min-height: 500px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .Header .Header-Cover  button {
+    border-color: #F47D25 ;
+    height: 35px;
+    margin-top: 57px;
+    color:   #F47D25;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .Price{
+    background : url("../images/VR2.jpg")no-repeat center center fixed; 
+        margin-top: 20px;
+        color: white;
+  }
+  .Price h1{
+      margin-top: 43px;
+      color: white;
+  }
+  .Price p{
+      color: white;
+  }
+  .Price .stat{
+    background:rgba(152, 84, 248, 0.4);
+
+  }
+  .Price  button{
+    border-color:#F47D25 ;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:  #2B0463;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .Price  button a{
+      text-decoration: none;
+  }
+  .Header .Header-Covern button:hover {
+    background-color: #2B0463;
+    border-color:#F47D25 ;
+    height: 35px;
+    margin-top: 57px;
+    color:  #F47D25 ;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.About{
+    margin: 30px 0 30px 0;
+}
+.About .lead{
+background-color: white;
+    border-left: #F47D25 solid 2px;
+    border-right: #F47D25 solid 2px;
+    margin-bottom: 30px;
+    padding: 10px;
+    color:#2B0463 ;
+    line-height: 2.3pc;
+}
+
+.About img{
+    
+    width: 95%;
+    height: 300px;
+    border: 2px solid #F47D25;
+   
+}
+
+/*Start Style Of Our Sevices*/
+
+.Services{
+   background : url("../images/VR2.jpg")no-repeat center center fixed;
+   margin-bottom: 30px;
+}
+.Services p{
+    color: white;
+}
+.Services .Services-In{
+background:rgba(152, 84, 248, 0.4);
+}
+.Services .Services-In h1,p{
+    color: white;
+}
+
+.Services h1{
+  margin-bottom: -15px;
+}
+ .Services .ServicesData {
+    background-color: white;
+    border:  white solid 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    display: none;
+    opacity: 8;
+ }
+ .Services .ServicesData p{
+    color: #2B0463 ;
+
+ }
+ .Services .ServicesData:hover{
+     border-color: #F47D25;
+ }
+.Services .ServicesData p{
+    line-height: 200%;
+}
+
+/*End Style Of Our Sevices*/
+ /*=================================================*/
+
+ .statistic{
+  /*  background : url("../images/22.png" ) no-repeat center center fixed;*/ 
+    /*Beacuse if i do zoome (-)the image dont hidden*/
+    -webkit-background-size:cover ;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+ 
+  }
+  
+  .statisti h1{
+   margin-top: 40px;
+  font-weight: 700;
+  font-size: 50px;
+  }
+  
+  
+  .statistic .data{
+    -webkit-transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+   transition: all 0.9s ease-in-out;
+   margin-bottom: 30px;
+  }
+  .statistic .data:hover{
+  color:#F47D25;
+  }
+  .statistic .data img{
+      width: 50px;
+      height: 40px;
+  }
+  .statisti p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+  }
+  .statistic .data p{
+    color: #2B0463;
+  }
+  .statistic span{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .statistic h3{
+      color:#2B0463;
+      margin-top: 9px;
+      font-size: 27px;
+      letter-spacing: normal;
+  }
+.subscrib{
+    background : url("../images/VR2.jpg" ) no-repeat center center fixed; 
+
+    /*background-color: rgb(107, 61, 61);*/
+    padding-bottom: 60px;
+    padding-top: 30px;
+    margin-top: 20px;
+    color: white;
+   height: 290px;
+   width: 100%;
+}
+.subscrib .subsCover{
+    background:rgba(152, 84, 248, 0.4);
+    height: 290px;
+    margin-top: -30px;
+}
+.subscrib h1{
+    color: white;
+}
+.subscrib .lead{
+    margin-bottom: 40px;
+    display: none;
+}
+.subscrib .form-control{
+    border-radius: 0px;
+    margin-right: -5px;
+    width:300px ;
+    display: none;
+}
+.btn-danger {
+    background-color: #2B0463;
+    border-color:#F47D25 ;
+}
+.subscrib .btn{
+    border-radius: 0px;
+}
+.subscrib i{
+    color: white;
+}
+.subscrib .form-inline{
+    border-radius: 0px;
+}
+
+/* end subscrib style */
+
+/*=======================================================*/
+
+/*start contact us style*/
+
+.contact-us{
+    background : url("../images/contactt.jpg" ) no-repeat center center fixed; 
+
+     /*Beacuse if i do zoome (-)the image dont hidden*/
+     -webkit-background-size:cover ;
+     -moz-background-size:cover;
+     -o-background-size:cover;
+     background-size:cover;
+     min-height: 300px;
+     margin-top: 30px;
+
+ }
+  
+ .contact-us .fields{
+   /* background-color: rgb(238, 236, 236);*/
+   background:rgba(163, 145, 189, 0.4);
+
+     min-height: 300px;
+     padding-bottom: 30px;
+     padding-top: 30px;
+ }
+ 
+ .contact-us  p{
+     margin-bottom: 40px;
+     margin-top: 10px;
+     color: white;
+ }
+ .contact-us textarea{
+     height: 108px;
+ }
+ .contact-us input[type="text"],
+ .contact-us textarea{
+     background:#f1f1f1e0;
+     color: white;
+     border: none;
+ }
+ .contact-us .form-group :hover{
+ color: #2B0463;
+ }
+ 
+ .btn-block {
+ background: #2B0463;
+ }
+ .btn-block:hover{
+ background: #F47D25;
+ }
+ .btn-primary {
+     border-color: #F47D25;
+ }
+ .contact-info{
+     margin-bottom: 30px;
+ }
+ 
+ .contact-us .contact-address p,a {
+    font-weight: bold;
+    color: #2B0463;
+    font-size: 20px;
+}
+.contact-us .contact-address i{
+    color: #2B0463;
+    margin-top: 14px;
+}
+.contact-us .contact-address{
+    background-color: white;
+    border: 2px solid #f47d25;
+    height: 106px;
+
+    
+}
+
+/*End contact us style*/
+
+ /*=======================================================*/
+ /*Start Our Project Tours style*/
+ 
+ .Main-Tours{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 20px;
+ }
+ .Main-Tours img{
+    width: 100%;
+    height: 600px;
+ }
+ .Main-Tours iframe{
+     display: none;
+     width: 100%;
+    height: 600px;
+    margin-bottom: 20px; 
+ }
+ .Main_image {
+    width: 100%;
+    height: 600px;
+    margin-top: -300px;
+ }
+ .Main_image p{
+     color: #F47D25 ;
+     font-weight: bold;
+     font-size: 30px;
+ }
+ .Main_image button{
+    background-color: #2B0463;
+    border-color:#F47D25;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    color: #F47D25;
+   
+ }
+ .only iframe{
+     display: none;
+ }
+
+ .Tours_info{
+     overflow: hidden;
+     cursor: pointer;
+     margin-bottom: 20px;
+     border: solid  #F47D25 3px;
+
+ }
+ .Tours_info .only{
+    width: 100%;
+    height: 100%;
+}
+.only p{
+   padding-top: 70px;
+   color:white;
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+
+}
+.only p:hover{
+    overflow: visible;
+    padding-top: 80px;
+    color: #F47D25;
+}
+ #Tours1 .only{
+    background : url(../images/h111.jpg ) center  ; 
+}
+ #Tours2 .only{
+    background-image: url(../images/house.jpg);
+ }
+ #Tours3 .only{ 
+    background-image: url(../images/YNB1.jpg);
+ }
+ #Tours4 .only{
+    background-image: url(../images/gg1.jpg);
+ }
+ #Tours1, #Tours2 , #Tours4 , #Tours3{
+    height: 200px;
+    padding: 5px;
+ }
+
+.Contact h3{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 24px;
+}
+.Story {
+    background : url("../images/story1.jpg" ) no-repeat center center fixed; 
+}
+.Story h1{
+    color: white;
+}
+.Story .Story-Cover p{
+    color: white;
+}
+.Story .Story-Cover{
+    background:rgba(152, 84, 248, 0.4);
+}
+
+.Story p{
+    color: #2B0463;
+}
+.Story .lead span{
+color: #F47D25;
+font-weight: bold;
+font-size: 24px;
+}
+ /*End contact Tours style*/
+
+/*=======================================================*/
+/*start Footer style*/
+.Footer {
+
+margin-top: 16px;
+   /* background-color: rgba(152, 84, 248, 0.3);*/
+}
+.Footer p,h3{
+    color: #2B0463 ;
+}
+.Footer h3{
+margin-top: 30px;
+}
+
+ .Footer .info-contact{
+     margin-top: 30px;
+ }
+ .Footer .info-contact a ,p{
+     font-size: 16px;
+     text-decoration: none;
+     color: #2B0463;
+     font-weight: bold;
+ }
+ .AllFooter{
+     padding-bottom: 15px;
+ }
+ 
+.Footer .Links span a{
+    color: #2B0463;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Links a:hover{
+    color:#F47D25 ; 
+    text-decoration: none;
+}
+ .last {
+    background-color:  rgba(152, 84, 248, 0.2);; 
+     margin-top: 1px;
+     }
+     .last p{
+        color: #2B0463;
+     }
+ 
+ .last span a{
+     color: #F47D25;
+    font-weight: bold;
+ }
+ .last span a:hover{
+    text-decoration: none;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+
+/*Media Quiery Style*/
+@media(max-width:690px){
+    .contact-us .contact-address {
+        margin-bottom: 5px;
+        border: 2px solid red
+    }
+}
+@media(max-width:766px){
+
+    .subscrib .form-control{
+        margin: 0 auto;
+        margin-bottom: 7px;
+        margin-top: -17px;     
+    }
+    .Tours_info .Tours_info{
+        margin-bottom: 7px;
+    }
+}
+@media(min-width: 991px){
+    .nav {
+    padding-right: 88px;
+    }
+}
+@media(min-width: 767px)and (max-width: 948px){
+    .Contact h3{
+        font-size: 17px;
+    }
+
+}
+  
+/*textdecoration:none*/
+ 
